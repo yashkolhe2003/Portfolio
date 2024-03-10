@@ -1,0 +1,94 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30pt;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+}
+main{
+   
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 150px;
+}
+button{
+    background-color: rgb(240,200,115);
+    border: 0;
+    height: 20pt;
+    width: 50pt;
+}
+#about h1{ 
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#about h3{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#gt{
+    background-color: black;
+    border: solid;
+    color: white;
+    width: 80pt;
+    height: 30pt;
+
+}
+#show{
+    border: 5px;
+}
+#br{ 
+    background-image: linear-gradient(to right, blue 10%,rgba(128, 0, 128, 0.137) );
+    height: 5px;
+    width: 700px;
+}
+
+footer{
+    padding-left: 600px;
+}
+#d{
+    height: 100px;
+    width: 150px;
+    border: solid white;
+    box-shadow: 20px;
+    background-color: antiquewhite;
+    padding: 50px;
+}
+#ijn{
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    padding-top: 80px;
+    box-shadow: 10px 10px 20px 10px;
+    height: 100px;
+    border-bottom:solid thick red;
+    margin: 30px 90px;
+
+}
+#shivi{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    margin:110px 150px;
+
+}
+.palak{
+    border: solid thick black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+#map{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
