@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#M{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    height: 40px;
+    background-color:rgb(212, 209, 205);
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    border-right:solid thin gray;
+
+}
+.S {
+    font-size: 25pt;
+}
+#A {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1030px;
+    height: 40px;
+    background-color:rgb(212, 209, 205) ;
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+}
+#W{
+    width: 470px;
+    height: 40px;
+    background-color: white;
+    border: solid thin rgba(245, 245, 245, 0.548);
+    padding-top: 10px;
+}
+input{
+    width: 400px;
+    height: 25px;
+    border:solid thin rgba(245, 245, 245, 0.521);
+    margin-left: 25px;
+
+
+}
+#aside{
+    width: 470px;
+    background-color: white;
+    border: solid thin whitesmoke;
+    
+}
+p{
+    margin-left: 20px;
+    
+}
+.sect{
+    margin:20px;
+    display: flex;
+    align-items: center;
+}
+.sect:hover{
+    background-color: rgb(196, 182, 182);
+    width: 470px;
+    height: 40px;
+    margin-left: 0px;
+}
+.sect img{
+    border-radius: 100%;
+}
+#search{display: flex;
+    height: 50px;
+    width: 1030px;
+    background-color: rgb(212, 209, 205);
+    margin-left: 470px;
+    
+    transform: translateY(-750px);
+    justify-content:center;
+    align-items: center;
+
+}
+#search i{
+    margin-left: 7px;
+    font-size:25pt ;
+    padding-top: 5px;
+}
+#search input{
+    width: 900px;
+    height: 25px;
+    margin-top: 4px;
+}
+#mainb{
+    height: 700px;
+    width:1030px;
+    margin-left: 470px;
+    transform: translateY(-734px);
+    background-color: rgb(230, 223, 212);
+
+}
+#but button{
+    background-color: rgb(114, 173, 192);
+    border-radius: 40px;
+    border: solid thin rgb(87, 160, 184) ;
+    transform: translateY(350px);
+    margin-left: 450px;
+
+}
+.chat{
+    height: 30px;
+    width:140px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    transform: translateY(400px);
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+.me{
+    height: 40px;
+    width:220px;
+    border-radius: 50px;
+    transform: translateY(450px);
+    background-color: rgb(134, 216, 12);
+    margin-left:800px ;
+    display: flex;
+    align-items: center;
+}
